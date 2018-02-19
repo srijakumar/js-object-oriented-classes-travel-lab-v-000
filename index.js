@@ -22,7 +22,7 @@ class Route {
   }
 
 blocksTravelled(){
-  let distance1= avenue - indexOf(beginningLocation)
+  let distance= indexOf(endingLocation.horizontal) - indexOf(beginningLocation.horizontal) + endingLocation.vertical - beginningLocation.vertical
 
 }
 
