@@ -9,7 +9,7 @@ yearsExperienceFromBeginningOf(year){
     let endDate = new Date(year, 1, 1);
 
     let totalYears = (endDate - this.startDate)/(1000*60*60*24*365);
-    return parseInt(totalYears);
+    return Math.ceil(totalYears);
   }
 }
 
