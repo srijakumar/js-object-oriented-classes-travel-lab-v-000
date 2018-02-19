@@ -3,12 +3,13 @@ class Driver {
     this.name = name;
     this.startDate = new Date(startDate);
 }
-  yearsExperienceFromBeginningOf(year){
+}
+/*  yearsExperienceFromBeginningOf(year){
     let endDate = new Date(year, 1, 1);
     let totalYears = (endDate - this.startDate);
     return parseInt(totalYears);
   }
-}
+
 /*
 let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
 
