@@ -21,9 +21,9 @@ class Route {
     this.endingLocation = endingLocation
   }
 
-blocksTravelled(avenue, street){
+blocksTravelled(){
   let distance1= avenue - indexOf(beginningLocation)
 
 }
 
- }
+}
